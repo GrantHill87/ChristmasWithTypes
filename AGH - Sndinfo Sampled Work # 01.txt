@@ -1,0 +1,28 @@
+AGH - Sndinfo Sample # 01
+
+//The following is a sample of my script I wrote for a coding language (Sndinfo) developed by a company called Raven Software, who created the awesome video game called, Hexen (1995) [Indirect sequel to Heretic].
+//I utilized this language to define and write my own code for a custom game I've been developing, using a similar engine to one developed for this older game, since the source code for the original game was released long ago.
+//The scripts I've written are in addition to the pre-existing source code, but both work very well together, as I've had to constantly debug my own code blocks, and there are other developers who have worked to expand the capacity of this coding language.
+
+//Created by A. Grant Hill
+
+/*Title of my project is called, Doomed Legends, but everything that's been written in this sample is actually for a spin-off project of my main one....
+/*Anything that doesn't make sense to you, feel free to message me, or refer to online archives associated with this coding platform.
+/*A demo version of this lesser project will eventually be released for public access, detailing a brief description of what the project consists of, and what's needed to run it.
+
+//Switch Sound Definitions
+switches/GNUP01 GNUP01
+switches/GNDN01 GNDN01
+switches/OFFS01 OFFS01
+
+//SkulKING Sound Definitions
+SkulKG01 SkulKG01
+SkulKG02 SkulKG02
+SkulKG03 SkulKG03
+SkulKG04 SkulKG04
+SkulKG05 SkulKG05
+SkulKG06 SkulKG06
+SkulKG07 SkulKG07
+SkulKG08 SkulKG08
+
+$Random SkulKINGActive {SkulKG01 SkulKG02 SkulKG03 SkulKG04}
